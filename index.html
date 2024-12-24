@@ -4,30 +4,72 @@
 		<title>LOLUET</title>
 		<link rel="page icon" href="images/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="style.css" />
+
 	</head>
 	<body>
-		<div id="container">
-			<div id="header">
-				<img src="images/loluet.png" width="100"><span style="font-size:40px; align-items: center;" id="txt">Welcome Fans of LOLUET!</span><img src="images/loluet.png" width="100"/>
-			</div>
-			<div id="content">
-				
-			</div>
-			<div id="nav">
-				<h3>Navigation</h3>
+		<div id="header">
+				<img src="images/loluet.png" width="100"><span style="font-size:40px; align-items: center;" id="txt">LOLUET Fan Club</span><img src="images/loluet.png" width="100"/>
+
+		</div>
+		<div id="page-title">
+			<h1>Main Page<h1>
+		</div>
+		<div id="content">
+			<div id="navigation">
+			<h2>Navigation</h2>
 				<ul>
-					<li><a class="selected" href="index.html">Home</a> < you are here </li>
-					<li><a class="selected" href="index.html">TBA</a></li>
-					<li><a class="selected" href="index.html">TBA</a></li>
+					<li><a class="selected" href="index.html">Main Page</a> <</li>
+					<li><a class="selected" href="social.html">Social Media</a></li>
+					<!--<li><a class="selected" href="timeline.html">LOLUET Timeline</a></li>-->
+					<li><a class="selected" href="archived-tweets.html">Archived Tweets</a></li>
+					<li><a class="selected" href="songs.html">All Songs</a></li>
+					<li><a class="selected" href="trivia.html">LOLUET Trivia (Coming Soon)</a></li>
+					<!--<li><a class="selected" href="playlists.html">LOLUET Playlists</a></li>-->
+					<li><a class="selected" href="contact.html">Who Runs This Site?</a></li>
 				</ul>
 			</div>
-			<div id="main">
-				<h2>Home Page</h2>
-				<p>Welcome to LOLUET Fanclub</p>
-				<p>This site is currently a work in progress</p>
+			<div id="information">
+				<h2>Welcome Fans of LOLUET!</h2>
+				<a class="selected" href="index.html">loluet.com</a>
+				 is a site dedicated to spreading knowledge and awareness for the one and only LOLUET, an utaite/singer hailing from Japan. Here, you can find all sorts of cool information, such a 
+				 <a class="selected" href="songs.html">list of all the songs she has released</a>,
+				  a 
+				 <a class="selected" href="timeline.html">complete timeline of her progression as an artist</a>
+				  (Even from before she was known as LOLUET!), and more! Take a look around, and tell your friends. The following is small, but I would 
+				  <a class="selected" href="https://www.youtube.com/watch?v=uXZkGWbyvcM">Loveit?</a>
+				  if it grew!
+				<h2>Who is LOLUET?</h2>
+				<!--<a class="selected" href=""></a>-->
+				LOLUET, name unknown, is a singer from Japan. Known as an Utaite, she started off recording herself singing covers of songs and sharing them on 
+				<a class="selected" href="https://www.nicovideo.jp/">niconico</a>.
+				 At this point in her career, she was known under a different name: Reciel. From 2018 onward, along with posting on niconico, Reciel also released covers onto sites like 
+				<a class="selected" href="https://www.youtube.com/">youtube</a>, 
+				<a class="selected" href="https://soundcloud.com/">soundcloud</a>,
+				 and even 
+				<a class="selected" href="https://www.twitter.com">twitter</a>. 
 
+				<br><br>After a few years of this, a name change occurred. On the 18th day of May, 2021, LOLUET was born. A new Youtube account, two new Twitter accounts, a new niconico account, and more came into existence. Since then, LOLUET has been releasing covers sporadically, with the occasional collaboration with large artists such as 
+				<a class="selected" href="https://www.youtube.com/channel/UCRcAwbCAwGh7nw3hwvaNVwg">biz</a>, 
+				<a class="selected" href="https://www.youtube.com/channel/UCDW-kx3ErDhFuQ50vCOXU_A">TeddyLoid</a>, 
+				<a class="selected" href="https://www.youtube.com/channel/UCvq3kUGY5Dbsdkr3DZx25Sw">Giga</a>, and more. 
+
+There have been breaks and nuances in her history between then and now, but that can all be examined carefully to your hearts content in the 
+				<a class="selected" href="https://loluet.com/timeline.html">Complete LOLUET Timeline</a>.
+
+				<br><br>I implore you to stay and learn a thing or two :)
+
+				<br><br>- Crighter
 			</div>
 		</div>
-		<footer>MDM::2024<br>version 0.0.1</footer>
+		<footer id="footer">Crighter::2024<br>version <span id="version"></span></footer>
+
+  <!-- Load the version script -->
+  <script src="version.js"></script>
+
+  <!-- Use the version -->
+  <script>
+    document.getElementById('version').textContent = window.appVersion;
+  </script>
 	</body>
+
 </html>
